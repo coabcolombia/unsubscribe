@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dar de Baja Newsletter</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        form { max-width: 400px; margin: auto; }
+        input, button { width: 100%; padding: 10px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h2>Dar de Baja del Newsletter</h2>
+    <p>Ingresa tu correo para dejar de recibir nuestros correos.</p>
+    <form action="unsubscribe.php" method="POST">
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+        <button type="submit">Darme de Baja</button>
+    </form>
+</body>
+</html>
